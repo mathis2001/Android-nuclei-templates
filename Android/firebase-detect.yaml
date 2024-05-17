@@ -1,0 +1,16 @@
+id: firebase-detect
+
+info:
+  name: Application use Firebase DB
+  author: S1rN3tZ
+  severity: info
+
+file:
+  - extensions:
+      - all
+
+    matchers:
+      - type: word
+        words:
+          - "firebaseio.com"
+          - "appspot.com"
