@@ -1,0 +1,17 @@
+id: deeplink-detect
+
+info:
+  name: Deeplink detection
+  author: S1rN3tZ
+  severity: info
+
+file:
+  - extensions:
+      - xml
+
+    matchers:
+      - type: word
+        words:
+          - "android:scheme"
+          - "android:host"
+          - "android:pathPrefix
