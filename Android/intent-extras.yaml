@@ -1,0 +1,16 @@
+id: intent-extras
+
+info:
+  name: Find extras in Intents
+  author: S1rN3tZ
+  severity: info
+
+file:
+  - extensions:
+      - all
+
+    matchers:
+      - type: word
+        words:
+          - "Landroid/content/Intent;->putExtra"
+          - "Landroid/content/Intent;->putExtras"
