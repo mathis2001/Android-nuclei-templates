@@ -10,20 +10,10 @@ file:
       - all
 
     matchers:
-      - type: word
+      - type: regex
         words:
           - "Landroid/content/Intent;->putExtra"
           - "Landroid/content/Intent;->putExtras"
           - "Landroid/content/Intent;->getExtras"
           - "Landroid/content/Intent;->getExtra"
-          - "Landroid/content/Intent;->getStringExtras"
-          - "Landroid/content/Intent;->getIntExtra"
-          - "Landroid/content/Intent;->getByteArrayExtra"
-          - "Landroid/content/Intent;->getBooleanExtra"
-          - "Landroid/content/Intent;->getShortExtra"
-          - "Landroid/content/Intent;->getLongExtra"
-          - "Landroid/content/Intent;->getFloatExtra"
-          - "Landroid/content/Intent;->getDoubleExtra"
-          - "Landroid/content/Intent;->getCharExtra"
-          - "Landroid/content/Intent;->getCharSequenceExtra"
-          - "Landroid/content/Intent;->getParcelableExtra"
+          - "Landroid/content/Intent;->get[a-zA-Z]+Extra"
