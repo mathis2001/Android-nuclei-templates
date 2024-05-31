@@ -11,7 +11,7 @@ file:
 
     matchers:
       - type: regex
-        words:
+        regex:
           - "Landroid/content/Intent;->putExtra"
           - "Landroid/content/Intent;->putExtras"
           - "Landroid/content/Intent;->getExtras"
