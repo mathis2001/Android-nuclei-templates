@@ -9,9 +9,9 @@ file:
   - extensions:
       - all
 
-    matchers:
-      - type: word
-        words:
+    extractors:
+      - type: regex
+        regex:
           - "android:launchMode=\"singleTask\""
           - "FLAG_ACTIVITY_NEW_TASK"
           - "android:allowTaskReparenting=\"true\""
