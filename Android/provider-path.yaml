@@ -9,7 +9,7 @@ file:
   - extensions:
       - all
 
-    matchers:
+    extractors:
       - type: regex
         regex:
           - "root-path name=\"[0-9A-Za-z\\-_]{1,10}\" path=\".\""
