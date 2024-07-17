@@ -9,9 +9,9 @@ file:
   - extensions:
       - xml
 
-    matchers:
-      - type: word
-        words:
+    extractors:
+      - type: regex
+        regex:
           - "android:scheme"
           - "android:host"
           - "android:pathPrefix
