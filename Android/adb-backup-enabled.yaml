@@ -2,14 +2,14 @@ id: adb-backup-enabled
 
 info:
   name: ADB Backup Enabled
-  author: gaurang
+  author: s1rn3tz
   severity: low
 
 file:
   - extensions:
-      - all
+      - xml
 
     matchers:
-      - type: word
-        words:
+      - type: regex
+        regex:
           - "android:allowBackup=\"true\""
