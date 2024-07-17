@@ -2,14 +2,14 @@ id: file-scheme
 
 info:
   name: File Scheme Enabled
-  author: gaurang
+  author: s1rn3tz
   severity: info
 
 file:
   - extensions:
       - xml
 
-    matchers:
-      - type: word
-        words:
+    extractors:
+      - type: regex
+        regex:
           - "android:scheme=\"file\""
