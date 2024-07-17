@@ -9,9 +9,9 @@ file:
   - extensions:
       - xml
 
-    matchers:
-      - type: word
-        words:
+    extrators:
+      - type: regex
+        regex:
           - "android.permission.READ_CALENDAR"
           - "android.permission.WRITE_CALENDAR"
           - "android.permission.READ_CALL_LOG"
