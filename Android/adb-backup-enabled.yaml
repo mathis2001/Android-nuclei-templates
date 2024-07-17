@@ -9,7 +9,7 @@ file:
   - extensions:
       - xml
 
-    matchers:
+    extractors:
       - type: regex
         regex:
           - "android:allowBackup=\"true\""
