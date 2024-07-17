@@ -9,7 +9,7 @@ file:
   - extensions:
       - xml
 
-    extrators:
+    extractors:
       - type: regex
         regex:
           - "android.permission.READ_CALENDAR"
