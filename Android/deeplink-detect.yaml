@@ -12,6 +12,6 @@ file:
     extractors:
       - type: regex
         regex:
-          - "android:scheme"
-          - "android:host"
-          - "android:pathPrefix"
+          - 'android:scheme=\s*"(.*?)"'
+          - 'android:host=\s*"(.*?)"'
+          - 'android:pathPrefix=\s*"(.*?)'
