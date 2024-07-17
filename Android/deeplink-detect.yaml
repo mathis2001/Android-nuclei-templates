@@ -14,4 +14,4 @@ file:
         regex:
           - "android:scheme"
           - "android:host"
-          - "android:pathPrefix
+          - "android:pathPrefix"
