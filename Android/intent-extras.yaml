@@ -9,7 +9,7 @@ file:
   - extensions:
       - all
 
-    matchers:
+    extractors:
       - type: regex
         regex:
           - "Landroid/content/Intent;->putExtra"
