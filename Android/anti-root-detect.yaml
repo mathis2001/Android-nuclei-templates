@@ -9,9 +9,9 @@ file:
   - extensions:
       - all
 
-    matchers:
-      - type: word
-        words:
+    extractors:
+      - type: regex
+        regex:
           - "com.noshufou.android.su"
           - "com.noshufou.android.su.elite"
           - "eu.chainfire.supersu"
