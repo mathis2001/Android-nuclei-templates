@@ -2,15 +2,15 @@ id: biometric-detect
 
 info:
   name: Biometric or Fingerprint detect
-  author: gaurang
+  author: S1rN3tZ
   severity: info
 
 file:
   - extensions:
-      - all
+      - xml
 
-    matchers:
-      - type: word
-        words:
+    extractors:
+      - type: regex
+        regex:
           - "android.permission.USE_FINGERPRINT"
           - "android.permission.USE_BIOMETRIC"
