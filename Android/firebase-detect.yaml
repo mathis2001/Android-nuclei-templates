@@ -1,7 +1,7 @@
 id: firebase-detect
 
 info:
-  name: Application use Firebase DB
+  name: Application use Firebase and/or Appspot
   author: S1rN3tZ
   severity: info
 
@@ -12,5 +12,5 @@ file:
     extractors:
       - type: regex
         regex:
-          - "firebaseio.com"
-          - "appspot.com"
+          - '(\b[a-zA-Z0-9][a-zA-Z0-9-_]*\.)*firebaseio\.com\b'
+          - '(\b[a-zA-Z0-9][a-zA-Z0-9-_]*\.)*appspot\.com\b'
