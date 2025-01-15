@@ -15,3 +15,4 @@ file:
           - 'android:scheme=\s*"(.*?)"'
           - 'android:host=\s*"(.*?)"'
           - 'android:pathPrefix=\s*"(.*?)'
+          - 'android:path=\s*"(.*?)'
