@@ -12,4 +12,7 @@ file:
     extractors:
       - type: regex
         regex:
-          - "android:allowBackup=\"true\""
+          - 'android:allowBackup=\"true\"'
+          - 'android:fullBackupContent=\"@xml/backup_rules\"'
+          - 'android:dataExtractionRules=\"backup_rules.xml\"'
+          - 'cloud-backup \[disableIfNoEncryptionCapabilities=\"false\"'
