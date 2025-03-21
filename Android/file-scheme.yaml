@@ -12,4 +12,5 @@ file:
     extractors:
       - type: regex
         regex:
-          - "android:scheme=\"file\""
+          - 'android:scheme=\"file\"'
+          - 'file://[^\s]*'
