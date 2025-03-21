@@ -2,14 +2,15 @@ id: webview-addjavascript-interface
 
 info:
   name: Webview addJavascript Interface Usage
-  author: gaurang
+  author: S1rN3tZ
   severity: info
 
 file:
   - extensions:
       - all
 
-    matchers:
-      - type: word
-        words:
-          - ";->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V"
+    extractors:
+      - type: regex
+        regex:
+          - ';->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V'
+          - 'addJavascriptInterface\([^\)]*\)'
